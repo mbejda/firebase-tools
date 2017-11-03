@@ -2,8 +2,7 @@
 'use strict';
 
 var pkg = require('../package.json');
-var updateNotifier = require('update-notifier')({pkg: pkg});
-updateNotifier.notify({defer: true});
+
 
 var client = require('..');
 var errorOut = require('../lib/errorOut');
